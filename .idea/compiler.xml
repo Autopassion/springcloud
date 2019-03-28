@@ -11,12 +11,13 @@
         <module name="eurekaserver" />
         <module name="feign" />
         <module name="ribbon" />
-        <module name="springcloud2" />
+        <module name="springcloudbus" />
+        <module name="springconfig" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zuul" target="1.8" />
+      <module name="springcloudbus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

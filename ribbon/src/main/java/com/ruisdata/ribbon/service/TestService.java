@@ -18,7 +18,7 @@ public class TestService {
     private RestTemplate restTemplate;
     @HystrixCommand(defaultFallback = "hystrixFallback")
     public String consumeTest(){
-        return restTemplate.getForObject("http://eurake-client1/eureka/test",String.class);
+        return restTemplate.getForObject("http://eureka-client1/eureka/test",String.class);
     }
     
     public String hystrixFallback(){

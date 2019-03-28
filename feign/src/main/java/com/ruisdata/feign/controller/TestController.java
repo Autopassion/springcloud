@@ -19,7 +19,7 @@ public class TestController {
     @Autowired
     private TestService testService;
     @RequestMapping("/test")
-    public String test(){
+        public String test(){
         final String test = testService.test();
         return test;
     }
